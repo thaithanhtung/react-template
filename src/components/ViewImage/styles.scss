@@ -1,0 +1,36 @@
+.building-orbit-reel {
+    width: 100%;
+    height: 100%;
+    .reel-link {
+        background-color: rgba(0, 0, 0, 0.7);
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        height: 47px;
+        opacity: 0.5;
+        overflow: hidden;
+        padding: 14px 20px;
+        text-align: center;
+        transition: 0.2s;
+        align-items: center;
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 19px;
+        white-space: nowrap;
+    }
+    .reel-link:hover {
+        background-color: #3498db;
+        opacity: 1;
+    }
+    #image-reel {
+        width: 100%;
+        height: 100%;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

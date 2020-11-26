@@ -1,0 +1,24 @@
+.test-01 {
+  height: 450px;
+  width: 50%;
+  position: relative;
+  //     overflow-y: scroll;
+
+  .box-zoom-product {
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    height: 60px;
+  }
+
+  .hide-image-360 {
+    display: none;
+  }
+  .hide-image-zoom {
+    display: none;
+  }
+}

@@ -5,8 +5,10 @@ import { Provider } from 'react-redux';
 import reportWebVitals from './reportWebVitals';
 import Routes from './routes';
 import { store } from './redux/store';
+import './styles/index.scss';
+import 'antd/dist/antd.css';
+import 'react-inner-image-zoom/lib/InnerImageZoom/styles.min.css';
 
-import './index.css';
 import { SENTRY_DNS, REACT_APP_ENVIRONMENT } from './contants';
 
 Sentry.init({
