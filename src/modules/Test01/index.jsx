@@ -32,25 +32,33 @@ const Test01 = () => {
   return (
     <div className='test-01'>
       <img
-        src='/image/00000.jpg'
-        width={500 + imageWidth}
-        height={500 + imageWidth}
+        src='image02/000.jpg'
+        width={500}
+        height={500}
         id='image-test'
         className={`reel ${showImageZoom && 'hide-image-360'}`}
-        data-images='/image/00###.jpg|000..143'
-        data-frames='9'
-        data-rows='16'
-        data-row='2'
+        data-images='image02/###.jpg|000..287'
+        data-frames='24'
+        data-frame='12'
+        data-rows='12'
+        data-row='6'
+        data-cw='true'
         data-responsive='true'
+        data-inversed='true'
+        // data-shy={true} click nào hình mới bắt đầu khởi tạo
         // data-orbital='24'
-        // data-speed='0.3'
-        data-horizontal={false}
+        data-speed='0.2'
+        // data-horizontal={false}
+        // data-inversed={true}
+        // rowlock={true}
+        // data-orientable={true}
         // data-vertical={true}
       ></img>
       <InnerImageZoom
-        src='/image/00000.jpg'
+        src='image02/050.jpg'
         zoomType='hover'
-        className={!showImageZoom && 'hide-image-zoom'}
+        className={!showImageZoom && 'hide-image-zoom '}
+        // afterZoomOut={setShowImageZoom}
         // zoomSrc='/image/00019.jpg'
       />
 

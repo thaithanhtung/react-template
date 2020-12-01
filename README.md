@@ -83,3 +83,5 @@ git push -u origin main
 git remote add origin https://github.com/thaithanhtung/react-template.git
 git branch -M main
 git push -u origin main
+
+"homepage": "http://thaithanhtung.github.io/react-template",
