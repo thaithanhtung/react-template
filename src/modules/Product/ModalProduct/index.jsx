@@ -19,9 +19,9 @@ const ModalProduct = ({ visible, setVisible, product }) => {
   };
 
   const handleStepClick = (step) => {
-    if (step && $(`#${product.key}`) && $(`#${product.key}`).reel) {
-      $(`#${product.key}`).reel('frame', +step);
-    }
+    // if (step && $(`#${product.key}`) && $(`#${product.key}`).reel) {
+    //   $(`#${product.key}`).reel('frame', +step);
+    // }
   };
 
   const selectColor = (item) => {
